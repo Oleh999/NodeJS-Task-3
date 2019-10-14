@@ -21,10 +21,7 @@ module.exports = (sequelize, DataTypes)=>{
             type: DataTypes.STRING,
             allowNull: false
         },
-        user_id: {
-            type: DataTypes.INTEGER,
-            foreignKey: true
-        }
+        
     },{
         tableName: 'houses',
         timestamps: false
